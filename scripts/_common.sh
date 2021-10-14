@@ -135,6 +135,8 @@ myynh_install_homeassistant () {
             && pip install --upgrade pip \
         && echo 'install last version of wheel' \
             && pip install --upgrade wheel \
+        && echo 'install last version of pybluez \
+            && pip install --upgrade pybluez
         && echo 'install Home Assistant' \
             && pip install --upgrade $app==$VERSION \
         "
