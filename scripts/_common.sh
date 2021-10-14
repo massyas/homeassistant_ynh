@@ -6,7 +6,7 @@
 VERSION=2021.10.0
 
 # Package dependencies
-PKG_DEPENDENCIES="python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf build-essential libopenjp2-7 libtiff5"
+PKG_DEPENDENCIES="python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf build-essential libopenjp2-7 libtiff5 bluetooth libbluetooth-dev"
 
 # Requirements (Major.Minor.Patch)
 # PY_VERSION=$(curl -s "https://www.python.org/ftp/python/" | grep ">3.8" | tail -n1 | cut -d '/' -f 2 | cut -d '>' -f 2)
